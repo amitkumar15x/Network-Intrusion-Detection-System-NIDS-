@@ -1,0 +1,50 @@
+@keyframes cyber-scanline {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes slow-pulse {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes grid-drift {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px 40px;
+  }
+}
+
+/* Helper Animation Utility Classes */
+.animate-scanline::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(to bottom, rgba(6, 182, 212, 0), var(--accent-cyan), rgba(6, 182, 212, 0));
+  opacity: 0.5;
+  animation: cyber-scanline 4s linear infinite;
+  pointer-events: none;
+}
+
+.animate-drift {
+  animation: grid-drift 20s linear infinite;
+}
+
+.animate-pulse-slow {
+  animation: slow-pulse 8s ease-in-out infinite;
+}

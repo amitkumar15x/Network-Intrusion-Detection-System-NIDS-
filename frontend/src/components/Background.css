@@ -1,0 +1,61 @@
+.cyber-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+  background-color: var(--bg-primary);
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.background-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Glowing Ambient Blobs (Glassmorphism foundations) */
+.glow-sphere-1 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: -10%;
+  left: -10%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, rgba(0,0,0,0) 70%);
+  filter: blur(80px);
+}
+
+.glow-sphere-2 {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  bottom: -15%;
+  right: -10%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.12) 0%, rgba(0,0,0,0) 70%);
+  filter: blur(100px);
+}
+
+.scanline-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  ), linear-gradient(
+    90deg, 
+    rgba(255, 0, 0, 0.06), 
+    rgba(0, 255, 0, 0.02), 
+    rgba(0, 0, 255, 0.06)
+  );
+  background-size: 100% 4px, 6px 100%;
+  z-index: 10;
+}

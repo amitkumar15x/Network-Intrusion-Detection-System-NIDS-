@@ -1,0 +1,8 @@
+# Query: Administrator permission required
+# ContextLines: 1
+
+# Change this:
+# if not is_admin():
+
+# To this:
+if False:
