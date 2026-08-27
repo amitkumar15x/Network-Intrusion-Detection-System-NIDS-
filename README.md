@@ -327,7 +327,7 @@ Feel free to check the [issues page](../../issues) or open a pull request.
 
 ---
 
-## 📄 License
+## 📄 License ...
 
 This project is licensed under the **MIT License**.
 
