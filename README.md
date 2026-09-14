@@ -94,7 +94,7 @@ Auto-generated session reports including:
 
 ## 🧠 Machine Learning
 
-The detection engine classifies every captured packet as **Normal** or **Attack** using a trained Scikit-learn model, returning both a **prediction** and a **confidence score**. Results are propagated instantly across the Monitoring, Dashboard, Alerts, and Reports views via WebSocket.
+The detection engine classifies every captured packet as **Normal** or **Attack** using a trained Scikit-learn model, returning both a **prediction** and  **confidence score**. Results are propagated instantly across the Monitoring, Dashboard, Alerts, and Reports views via WebSocket.
 
 ---
 
