@@ -37,7 +37,7 @@ Unlike a basic packet sniffer, SecureTech combines several layers into one cohes
 - 🔐 JWT-based authentication
 - 🎨 A modern, cyber-security-themed UI
 
-Built on a **React + Flask + Scikit-learn + Socket.IO** architecture, the system streams predictions to the frontend as packets are captured, enabling security analysts to monitor network activity as it happens.
+Built on a **React + Flask + Scikit-learn + Socket.IO** architecture, the system streams predictions to the frontend as packets are captured, enabling security analysts to monitor network activity as it happenss.
 
 ---
 
