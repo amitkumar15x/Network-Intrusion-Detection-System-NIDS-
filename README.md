@@ -25,7 +25,7 @@
 
 ## 📌 Overview
 
-**SecureTech NIDS** is a full-stack, machine-learning powered network intrusion detection system that captures live network traffic, classifies packets as **Normal** or **Attack**, and visualizes the results through a modern, real-time security dashboard.
+**SecureTech NIDS** is a full-stack, machine-learning powered network intrusion detection system that capture live network traffic, classifies packets as **Normal** or **Attack**, and visualizes the results through a modern, real-time security dashboard.
 
 Unlike a basic packet sniffer, SecureTech combines several layers into one cohesive platform:
 
